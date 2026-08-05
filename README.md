@@ -1,5 +1,5 @@
 # Power-BI_Data-Analytics
-# Sales & Profit Analytics Dashboard 📊
+## Sales & Profit Analytics Dashboard 📊
 
 
 An interactive Power BI dashboard built on a retail sales dataset. The goal was to go through the full BI workflow end to end: import raw tables, build a proper data model, choose the right chart for each question, connect everything with filters, add KPI cards, polish the design, and finish with custom DAX measures.
