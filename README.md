@@ -1,7 +1,6 @@
 # Power-BI_Data-Analytics
 # Sales & Profit Analytics Dashboard 📊
 
-[#sales--profit-analytics-dashboard-](#sales--profit-analytics-dashboard-)
 
 An interactive Power BI dashboard built during my Data Analytics internship (Week 3 task) on a retail sales dataset. The goal was to go through the full BI workflow end to end: import raw tables, build a proper data model, choose the right chart for each question, connect everything with filters, add KPI cards, polish the design, and finish with custom DAX measures.
 
@@ -9,7 +8,6 @@ I worked through this in six checkpoints, each one building on the last, so the 
 
 ## Overview 📖
 
-[#overview-](#overview-)
 
 The dataset is structured as a retail sales dataset with a central sales fact table and separate dimensions for customers, products, geography, employees, and dates — basically a mini version of what a real e-commerce or retail company's data warehouse would look like. Instead of just throwing every column onto a page, I focused on picking visuals that actually answer a specific business question (regional performance, category profitability, loyalty tier value, YoY growth), and linking them with slicers so the whole dashboard reacts together.
 
@@ -17,7 +15,6 @@ The final dashboard, along with every checkpoint's `.pbix` file, is in this repo
 
 ## Checkpoint 1 — Data Import & Data Modeling 📑
 
-[#checkpoint-1--data-import--data-modeling-](#checkpoint-1--data-import--data-modeling-)
 
 Before touching any visuals, I imported the source tables into Power BI and built the relationships in Model view. I ended up with a 7-table star schema:
 
@@ -32,8 +29,6 @@ Before touching any visuals, I imported the source tables into Power BI and buil
 I kept it as a star schema on purpose — one fact table surrounded by single-direction relationships to the dimension tables — instead of snowflaking things further, because it keeps the DAX simpler and the filtering behavior predictable once slicers are added in a later checkpoint.
 
 ## Checkpoints 2–5 — Building the Dashboard 🎨
-
-[#checkpoints-25--building-the-dashboard-](#checkpoints-25--building-the-dashboard-)
 
 **Chart selection (Checkpoint 2).** I deliberately picked five different visual types, each matched to what it's actually good at showing, rather than defaulting to bar charts everywhere:
 
@@ -67,8 +62,6 @@ Checkpoint 3 — after adding the Country / Size / Year slicers:
 </details>
 
 ## Checkpoint 6 — Calculated Measures 🧮
-
-[#checkpoint-6--calculated-measures-](#checkpoint-6--calculated-measures-)
 
 Two DAX measures I added to go beyond what's available out of the box:
 
@@ -106,7 +99,6 @@ This turns the raw YoY % into a plain-language label — Strong Growth, Moderate
 
 ## Findings & Insights 💡
 
-[#findings--insights-](#findings--insights-)
 
 - **Sales are stable across regions, margin isn't.** Total sales per region sit in a tight band (14.0M–14.3M), but profit margin % ranges from 35.34% (East) to 35.73% (West) — so volume alone doesn't explain profitability; something region-specific (cost, discounting behavior, product mix) is driving the margin gap.
 - **Discount level doesn't fully explain margin differences between categories.** In the scatter chart, average discount across categories barely moves (roughly 3.88%–3.92%), yet profit margin swings from about 32% up to 40%. That points to category-level cost structure mattering more than discounting strategy.
@@ -116,7 +108,6 @@ This turns the raw YoY % into a plain-language label — Strong Growth, Moderate
 
 ## Tools Used 🛠️
 
-[#tools-used-️](#tools-used-️)
 
 - **Power BI Desktop** — data modeling, DAX, and all visuals
 - **DAX** — YoY calculations, contribution %, and performance classification measures
@@ -124,7 +115,6 @@ This turns the raw YoY % into a plain-language label — Strong Growth, Moderate
 
 ## Repository Structure
 
-[#repository-structure](#repository-structure)
 
 | File | Description |
 |---|---|
