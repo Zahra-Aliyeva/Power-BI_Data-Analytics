@@ -2,7 +2,7 @@
 # Sales & Profit Analytics Dashboard 📊
 
 
-An interactive Power BI dashboard built during my Data Analytics internship (Week 3 task) on a retail sales dataset. The goal was to go through the full BI workflow end to end: import raw tables, build a proper data model, choose the right chart for each question, connect everything with filters, add KPI cards, polish the design, and finish with custom DAX measures.
+An interactive Power BI dashboard built on a retail sales dataset. The goal was to go through the full BI workflow end to end: import raw tables, build a proper data model, choose the right chart for each question, connect everything with filters, add KPI cards, polish the design, and finish with custom DAX measures.
 
 I worked through this in six checkpoints, each one building on the last, so the sections below follow that same order.
 
