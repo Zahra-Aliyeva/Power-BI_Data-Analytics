@@ -45,7 +45,7 @@ I kept it as a star schema on purpose — one fact table surrounded by single-di
 **Design (Checkpoint 5).** I built a custom "Teal & Amber" theme and added a dashboard title banner instead of leaving the default white background and Power BI's default palette. The layout is arranged so the KPI row sits right under the title, the trend and hierarchy visuals take the top half, and the three comparison charts sit in a row underneath — the idea being: headline numbers first, trends and structure second, comparisons last.
 
 <p align="center">
-  <img src="./Screenshot- checkpoint 5.png" alt="Final dashboard - Checkpoint 5" width="900">
+  <img src="./Screenshot - checkpoint 5.png" alt="Final dashboard - Checkpoint 5" width="900">
 </p>
 
 <details>
@@ -53,11 +53,26 @@ I kept it as a star schema on purpose — one fact table surrounded by single-di
 
 Checkpoint 2 — chart types, before slicers and KPI cards were added:
 
-![Checkpoint 2 screenshot](./Screenshot-%20checkpoint%202.png)
+![Checkpoint 2 screenshot](./Screenshot - checkpoint 2.png)
 
 Checkpoint 3 — after adding the Country / Size / Year slicers:
 
-![Checkpoint 3 screenshot](./Screenshot-%20checkpoint3.png)
+![Checkpoint 3 screenshot](./Screenshot - checkpoint 3.png)
+
+Checkpoint 4 — dashboard after further improvements and KPI implementation:
+
+![Checkpoint 4 Power BI file](./Checkpoint-4.pbix)
+
+Checkpoint 5 — refined dashboard with additional improvements:
+
+![Checkpoint 5 screenshot](./Screenshot - checkpoint 5.png)
+
+Checkpoint 6 — final Power BI version:
+
+[Open Checkpoint 6 Power BI file](./Checkpoint-6 (1).pbix)
+
+</details>
+
 
 </details>
 
