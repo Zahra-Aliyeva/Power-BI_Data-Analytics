@@ -45,7 +45,7 @@ I kept it as a star schema on purpose — one fact table surrounded by single-di
 **Design (Checkpoint 5).** I built a custom "Teal & Amber" theme and added a dashboard title banner instead of leaving the default white background and Power BI's default palette. The layout is arranged so the KPI row sits right under the title, the trend and hierarchy visuals take the top half, and the three comparison charts sit in a row underneath — the idea being: headline numbers first, trends and structure second, comparisons last.
 
 <p align="center">
-  <img src="./Screenshot- Checkpoint 5.png" alt="Final dashboard - Checkpoint 5" width="900">
+  <img src="./Screenshot- checkpoint 5.png" alt="Final dashboard - Checkpoint 5" width="900">
 </p>
 
 <details>
