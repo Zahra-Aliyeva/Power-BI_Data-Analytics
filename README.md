@@ -48,28 +48,36 @@ I kept it as a star schema on purpose — one fact table surrounded by single-di
   <img src="./Screenshot - checkpoint 5.png" alt="Final dashboard - Checkpoint 5" width="900">
 </p>
 
+
 <details>
 <summary>See the dashboard at earlier checkpoints (click to expand)</summary>
 
-Checkpoint 2 — chart types, before slicers and KPI cards were added:
+### Checkpoint 2
+Chart types were added before slicers and KPI cards were introduced.
 
-![Checkpoint 2 screenshot](./Screenshot - checkpoint 2.png)
+![Checkpoint 2 screenshot](./Screenshot%20-%20checkpoint%202.png)
 
-Checkpoint 3 — after adding the Country / Size / Year slicers:
+### Checkpoint 3
+Country / Size / Year slicers were added.
 
-![Checkpoint 3 screenshot](./Screenshot - checkpoint 3.png)
+![Checkpoint 3 screenshot](./Screenshot%20-%20checkpoint%203.png)
 
-Checkpoint 4 — dashboard after further improvements and KPI implementation:
+### Checkpoint 4
+Dashboard after further improvements and KPI implementation.
 
-![Checkpoint 4 Power BI file](./Checkpoint-4.pbix)
+[Open Checkpoint 4 Power BI file](./Checkpoint-4.pbix)
 
-Checkpoint 5 — refined dashboard with additional improvements:
+### Checkpoint 5
+Refined dashboard with additional improvements.
 
-![Checkpoint 5 screenshot](./Screenshot - checkpoint 5.png)
+![Checkpoint 5 screenshot](./Screenshot%20-%20checkpoint%205.png)
 
-Checkpoint 6 — final Power BI version:
+### Checkpoint 6
+Final Power BI version.
 
-[Open Checkpoint 6 Power BI file](./Checkpoint-6 (1).pbix)
+[Open Checkpoint 6 Power BI file](./Checkpoint-6%20%281%29.pbix)
+
+</details>
 
 </details>
 
